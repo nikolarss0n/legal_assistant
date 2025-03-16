@@ -1,0 +1,22 @@
+# Core dependencies
+playwright>=1.50.0
+pandas>=2.2.0
+python-dotenv>=1.0.0
+tqdm>=4.60.0
+
+# Database dependencies
+chromadb>=0.4.22
+langchain>=0.1.0
+langchain-community>=0.1.0
+langchain-huggingface>=0.0.2
+SQLAlchemy>=1.4.0
+sqlite3-binary==0.5.3
+pydantic>=2.0.0
+
+# Embedding models
+sentence-transformers>=2.3.0
+huggingface-hub>=0.23.0
+
+# Gemma model support (Uncomment to install Gemma 3 support)
+# git+https://github.com/huggingface/transformers@v4.49.0-Gemma-3
+# torch>=2.0.0
